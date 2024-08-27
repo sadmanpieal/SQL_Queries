@@ -82,3 +82,13 @@ CREATE TABLE customers(
     state VARCHAR(15),
     points INT
 );
+```
+### Database Insertion 
+```sql
+INSERT INTO customers(first_name, last_name, dob, phone, address, city, state, points) VALUES
+('Babara','MacCaffrey','1986-03-28','781-932-9754','0 Sage Terrace','Waltham','MA',2273),
+('Ines','Brushfield','1986-04-13','804-427-9456','14187 Commercial Trail','Hampton','VA',947),
+('Freddi','Boagey','1985-02-07','719-724-7869','251 Springs Junction','Colorado Springs','CO',2967),
+('Ambur','Roseburgh','1974-04-14','407-231-8017','30 Arapahoe Terrace','Orlando','FL',457),
+('Clemmie','Betchley','1973-11-07','','5 Spohn Circle','Arlington','TX',3675);
+```
